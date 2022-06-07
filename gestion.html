@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="gestion.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f23dfa51c8.js" crossorigin="anonymous"></script>
+    <header>
+        <nav class="wnav">
+            <div class="wlogo"><img src="Imagenes/logo castillo inmobiliaria minimalista dorado.png" alt=""></div>
+            <ul class="wmenu">
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="gestion.html"> Reservacion </a></li>
+                <li><a href="pedir.html"> Pedir Insumos </a></li>
+                <li><a href="publicar.html"> Publicar Ofertas </a></li>
+                <li><a href="informes.html"> Informes </a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <script src="todo.js"></script>
+    <div id="warreglo">
+    </div>
+    <div id="reservahotel1">
+        <div id="todocontenido">
+            <div id="titulo">
+                <h1>Veranum - Hacer reserva de habitacion</h1>
+                <br>
+                <select class="form-select">
+                    <option selected>Escoger Hotel</option>
+                    <option value="1">Hotel Providencia</option>
+                    <option value="2">Hotel Las Condes</option>
+                </select>
+            </div>
+            <div id="contenido">
+                <div class="opciones">
+                    <label for="hab">Habitaciones Disponibles :</label>
+                    <select class="form-select">
+                        <option selected>Escoger Habitacion</option>
+                        <option value="1">Habitacion 15</option>
+                        <option value="2">Habitacion 21</option>
+                        <option value="3">Habitacion 30</option>
+                    </select>
+                    <label for="hab">Coste : 20.000 / Diario</label>
+                </div>
+                <div class="opciones">
+                    <label for="hab">Tipo de baño disponible:</label>
+                    <select class="form-select" disabled>
+                        <option value="1">Baño europeo</option>
+                    </select>
+
+                </div>
+                <div class="opciones">
+                    <label for="hab">Servicio de alimentacion:</label>
+                    <input type="checkbox">
+                    <label for="hab">Coste : 4.000 / Diario</label>
+                </div>
+                <div class="opciones">
+                    <label for="hab">Servicio de lavanderia:</label>
+                    <input type="checkbox">
+                    <label for="hab">Coste : 2.000 / Diario</label>
+                </div>
+                <div class="opciones">
+                    <label for="hab">Fecha de reserva:</label>
+                    <input type="datetime-local" id="Test_DatetimeLocal">
+                    <label for="hab">Hasta el dia:</label>
+                    <input type="datetime-local" id="Test_DatetimeLocal">
+                </div>
+                <div class="opciones">
+                    <label for="hab">Precio Total: 150.000</label>
+                </div>
+                <div class="opciones">
+                    <div id="pagar">
+                        <button type="button" class="btn btn-dark">Agregar Habitacion</button>
+                        <button type="button" class="btn btn-dark">Eliminar Habitacion</button>
+                        <button type="button" class="btn btn-dark">Pagar</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+    <div id="wfooter">
+        <div id="wlogo">
+            <img src="Imagenes/logo castillo inmobiliaria minimalista dorado.png" alt="">
+        </div>
+        <div id="winfo">
+            <div class="wseccionfooter">
+                <h1>Redes Sociales</h1>
+                <div class="wredes">
+                    <img src="Imagenes/icons8-youtube-play-48.png" alt="">
+                    <h2>Youtube</h2>
+                </div>
+                <div class="wredes">
+                    <img src="Imagenes/icons8-facebook-48.png" alt="">
+                    <h2>Facebook</h2>
+                </div>
+                <div class="wredes">
+                    <img src="Imagenes/icons8-instagram-48.png" alt="">
+                    <h2>Instagram</h2>
+                </div>
+
+            </div>
+            <div class="wseccionfooter">
+                <h1>Acerca de Veranum</h1>
+                <h2>Sobre Nosotros</h2>
+                <h2>Servicios</h2>
+                <h2>Terminos y Condiciones</h2>
+                <h2>Trabaja con Nosotros</h2>
+            </div>
+            <div class="wseccionfooter">
+                <h1>Links de interés</h1>
+                <h2>Politica de Privacidad</h2>
+                <h2>Contáctanos</h2>
+                <h2>Series</h2>
+                <h2>Noticias</h2>
+            </div>
+            <div class="wseccionfooter">
+                <h1>Informacion</h1>
+                <h2>Telefono: +56912345678</h2>
+                <h2>Correo: ejemplo@ejemplo.com</h2>
+                <h2>Region Metropolitana, Melipilla, Chile</h2>
+            </div>
+            <div class="wseccionfooter1">
+                <form>
+                    <div class="form-group">
+                        <small id="emailHelp" class="form-text text-white">Recibe noticias y promociones al
+                            instante.</small>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Ingresa tu email">
+
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <small id="emailHelp" class="form-text text-white">He leído y acepto las políticas de
+                            privacidad.</small>
+                        <br><br>
+                        <button type="button" class="btn btn-dark">Subscribirse</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

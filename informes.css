@@ -1,0 +1,38 @@
+#publicar{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+}
+#contenido{
+    margin: 0 5% 5% 5%;     
+    padding: 5%;
+    background-color: rgb(204, 190, 0);
+}
+#contenido label{
+    color: #ffffff;
+    width: 400px;
+    font-size: 30px;
+}
+
+.informe{
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.botones button{
+    margin-right: 10px;
+}
+#titulo h1{
+    margin: 2%;
+    color: #ffffff;
+}
+#titulo select{
+    margin-left: 2%;
+    margin-bottom: 2%;
+    width: 300px;
+}

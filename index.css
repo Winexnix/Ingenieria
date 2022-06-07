@@ -1,0 +1,87 @@
+#carrusel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+#carouselExampleControls{
+    width: 60%;
+}
+#infocontacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+#infocontacto h1{
+    font-size: 30px;
+}
+#reserva{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#reserva a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #000000;
+    padding: 10px;
+    font-size: 30px;
+}
+#galeria{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+#galeria h1{
+    margin-bottom: 1cm;
+}
+#bienvenidos{
+    color: #ffffff;
+}
+#be{
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #000000;
+    padding-bottom: 4%;
+}
+#contenidob{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+#contenidob p{
+    margin-left: 5%;
+}
+#ofertas{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.oferta{
+    width: 500px;
+}
+.descof{
+    margin: 2%;
+    color: #ffffff;
+}
+#ubicacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
